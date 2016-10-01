@@ -26,6 +26,7 @@ public class Dinero extends JFrame implements ActionListener {
        
         public Dinero(){
            super();
+           pantalla = new JPanel();
            pantalla.setLocation(100, 100);
            pantalla.setBackground(Color.cyan);
            pantalla.setBorder(BorderFactory.createLineBorder(Color.black));
